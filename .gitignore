@@ -1,18 +1,70 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+.gitignore
 
-# Other files and folders
-.settings/
+# Chef
+.chef/*.pem
+.chef/encrypted_data_bag_secret
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Python
+.env
+.venv
+env/
+venv/
+ENV/
+.python-version
+.Python
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Django stuff:
+*.log
+local_settings.py
+
+# Ruby
+.rake_test_cache
+.rvmrc
+.rbenv-version
+
+# IdeaApps
+.idea
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+# Emacs org-mode
+.org-id-locations
+*_archive
+
+# SublimeText
+*.sublime-workspace
+
+# TextMate
+*.tmproj
+*.tmproject
+tmtags
+
+# Vim
+.*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
